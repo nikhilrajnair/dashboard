@@ -5,6 +5,10 @@
 
 
 
+
+
+
+
 /* -------------------------------- 
 
 Primary style
@@ -79,6 +83,10 @@ img {
 
 
 
+
+
+
+
 /* -------------------------------- 
 
 Main Page Content
@@ -104,8 +112,10 @@ Main Page Content
 @media only screen and (min-width: 768px) {
     .cd-main-content {
         .content-wrapper {
-            margin-left: 60px;
+            margin-left: 40px;
             padding-top: 0;
+            padding-right:0;
+            padding-bottom:0;
             h1 {
                 padding: 4em 0;
                 font-size: 3.2rem;
@@ -117,7 +127,7 @@ Main Page Content
         }
     }
     .inner {
-        // background:#f2f2f2;
+        background:#f2f2f2;
     }
 }
 
@@ -142,6 +152,10 @@ Main Page Content
         }
     }
 }
+
+
+
+
 
 
 
@@ -378,6 +392,10 @@ Header
 
 
 
+
+
+
+
 /* -------------------------------- 
 
 Top Navigation
@@ -455,6 +473,10 @@ Top Navigation
         color: #1784c7;
     }
 }
+
+
+
+
 
 
 /* -------------------------------- 
@@ -878,6 +900,9 @@ Sidebar
             margin-left: 15px;
             font-weight: 600;
             font-size: 18px;
+            // white-space: nowrap; 
+            overflow: hidden;
+            text-overflow: ellipsis;
             .tag {
                 padding: 2px 12px;
                 border: 1px solid #e5e5e5;
@@ -1025,6 +1050,10 @@ Sidebar
         color: #373733;
         text-transform: lowercase;
         font-size: 18px;
+        white-space: nowrap;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
         .tag {
             padding: 2px 12px;
             border: 1px solid;
@@ -1057,6 +1086,10 @@ Sidebar
 .card-content p {
     font-size: 80%;
 }
+
+
+
+
 
 
 
@@ -1215,6 +1248,10 @@ Sidebar
 
 
 
+
+
+
+
 /*——————————————
 Global
 ———————————————*/
@@ -1225,6 +1262,10 @@ Global
 
     margin: 0 auto;
 }
+
+
+
+
 
 
 
@@ -1257,6 +1298,10 @@ h1.header {
     font-size: 50px;
     line-height: 70px;
 }
+
+
+
+
 
 
 
@@ -1363,6 +1408,10 @@ h1.header {
 
 
 
+
+
+
+
 /**/
 
 
@@ -1454,6 +1503,10 @@ Responsive Stuff
 
 
 
+
+
+
+
 /* Hide the browser's default checkbox */
 
 .container {
@@ -1489,6 +1542,10 @@ Responsive Stuff
 
 
 
+
+
+
+
 /* Create a custom checkbox */
 
 .checkmark {
@@ -1500,6 +1557,10 @@ Responsive Stuff
     background-color: #d8d8d8;
     border-radius: 4px;
 }
+
+
+
+
 
 
 
@@ -1521,11 +1582,19 @@ Responsive Stuff
 
 
 
+
+
+
+
 /* When the checkbox is checked, add a blue background */
 
 .container input:checked~.checkmark {
     // background-color: #2196F3;
 }
+
+
+
+
 
 
 
@@ -1551,11 +1620,19 @@ Responsive Stuff
 
 
 
+
+
+
+
 /* Show the checkmark when checked */
 
 .container input:checked~.checkmark:after {
     display: block;
 }
+
+
+
+
 
 
 
@@ -1613,5 +1690,17 @@ Responsive Stuff
     }
     .cd-main-content .content-wrapper {
         padding: 45px 0 3em;
+    }
+    .cards {
+        display: block;
+    }
+    .media .media-body h5 .tag {
+        display: block;
+        width: 50px;
+        margin: 10px 0;
+    }
+    .card:hover {
+        box-shadow: none;
+        transition: .5s all ease;
     }
 }
