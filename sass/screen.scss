@@ -1,9 +1,8 @@
-
-
 @import "compass/reset";
 
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+
 
 
 /* -------------------------------- 
@@ -79,6 +78,7 @@ img {
 
 
 
+
 /* -------------------------------- 
 
 Main Page Content
@@ -116,15 +116,15 @@ Main Page Content
             content: 'tablet';
         }
     }
-    .inner{
+    .inner {
         // background:#f2f2f2;
     }
 }
 
 
 @media screen and (max-width: 998px) and (min-width: 770px) {
-    .inner{
-        background:#f2f2f2;
+    .inner {
+        background: #f2f2f2;
     }
 }
 
@@ -142,6 +142,7 @@ Main Page Content
         }
     }
 }
+
 
 
 
@@ -376,6 +377,7 @@ Header
 
 
 
+
 /* -------------------------------- 
 
 Top Navigation
@@ -453,6 +455,7 @@ Top Navigation
         color: #1784c7;
     }
 }
+
 
 /* -------------------------------- 
 
@@ -688,7 +691,7 @@ Sidebar
                 }
                 a.active div {
                     color: #fff !important;
-                    background:#3cb1e6;
+                    background: #3cb1e6;
                 }
                 >a {
                     padding: 2em .5em;
@@ -703,7 +706,7 @@ Sidebar
                         background: #5a5a57;
                         border-radius: 50%;
                         overflow: hidden;
-                        font-size:20px;
+                        font-size: 20px;
                         color: #838482;
                         text-shadow: 1px 1px rgb(72, 72, 68), 2px 2px rgb(72, 72, 68), 3px 3px rgb(72, 72, 68), 4px 4px rgb(72, 72, 68), 5px 5px rgb(72, 72, 68),
                         6px 6px rgb(72, 72, 68), 7px 7px rgb(72, 72, 68), 8px 8px rgb(72, 72, 68), 9px 9px rgb(72, 72, 68), 10px 10px rgb(72, 72, 68),
@@ -784,7 +787,7 @@ Sidebar
         .cd-label {
             display: block;
             padding: 0;
-        } 
+        }
     }
     .no-touch .cd-side-nav .action-btn a:hover {
         background-color: #1a93de;
@@ -841,8 +844,8 @@ Sidebar
 }
 
 
-.selected-text{
-    background:#ebf7fc;
+.selected-text {
+    background: #ebf7fc;
 }
 
 
@@ -1087,6 +1090,7 @@ Sidebar
 
 
 
+
 /* Flexbox stuff */
 
 .cards {
@@ -1210,6 +1214,7 @@ Sidebar
 
 
 
+
 /*——————————————
 Global
 ———————————————*/
@@ -1220,6 +1225,7 @@ Global
 
     margin: 0 auto;
 }
+
 
 
 
@@ -1251,6 +1257,7 @@ h1.header {
     font-size: 50px;
     line-height: 70px;
 }
+
 
 
 
@@ -1355,6 +1362,7 @@ h1.header {
 
 
 
+
 /**/
 
 
@@ -1445,6 +1453,7 @@ Responsive Stuff
 
 
 
+
 /* Hide the browser's default checkbox */
 
 .container {
@@ -1479,6 +1488,7 @@ Responsive Stuff
 
 
 
+
 /* Create a custom checkbox */
 
 .checkmark {
@@ -1490,6 +1500,7 @@ Responsive Stuff
     background-color: #d8d8d8;
     border-radius: 4px;
 }
+
 
 
 
@@ -1509,11 +1520,13 @@ Responsive Stuff
 
 
 
+
 /* When the checkbox is checked, add a blue background */
 
 .container input:checked~.checkmark {
     // background-color: #2196F3;
 }
+
 
 
 
@@ -1537,11 +1550,13 @@ Responsive Stuff
 
 
 
+
 /* Show the checkmark when checked */
 
 .container input:checked~.checkmark:after {
     display: block;
 }
+
 
 
 
@@ -1592,11 +1607,11 @@ Responsive Stuff
             font-size: 20px !important;
         }
     }
-    .inner{
-        padding:20px ;
-        background:#f2f2f2;
+    .inner {
+        padding: 20px;
+        background: #f2f2f2;
     }
-    .cd-main-content .content-wrapper{
-        padding:45px 0 3em;
+    .cd-main-content .content-wrapper {
+        padding: 45px 0 3em;
     }
 }
