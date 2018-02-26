@@ -954,7 +954,6 @@ Sidebar
   margin-left: 15px;
   font-weight: 600;
   font-size: 18px;
-  overflow: hidden;
   text-overflow: ellipsis;
 }
 /* line 906, ../sass/screen.scss */
@@ -1096,7 +1095,6 @@ Sidebar
   text-transform: lowercase;
   font-size: 18px;
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
 }
 /* line 1057, ../sass/screen.scss */

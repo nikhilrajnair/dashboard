@@ -901,7 +901,7 @@ Sidebar
             font-weight: 600;
             font-size: 18px;
             // white-space: nowrap; 
-            overflow: hidden;
+            // overflow: hidden;
             text-overflow: ellipsis;
             .tag {
                 padding: 2px 12px;
@@ -1052,7 +1052,7 @@ Sidebar
         font-size: 18px;
         white-space: nowrap;
 
-        overflow: hidden;
+        // overflow: hidden;
         text-overflow: ellipsis;
         .tag {
             padding: 2px 12px;
