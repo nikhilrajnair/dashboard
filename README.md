@@ -1,0 +1,2 @@
+# dashboard
+An admin dashboard
