@@ -10,6 +10,7 @@
 
 
 
+
 /* -------------------------------- 
 
 Primary style
@@ -89,6 +90,7 @@ img {
 
 
 
+
 /* -------------------------------- 
 
 Main Page Content
@@ -154,6 +156,7 @@ Main Page Content
         }
     }
 }
+
 
 
 
@@ -324,6 +327,7 @@ Header
 
 
 
+
 /* -------------------------------- 
 
 Top Navigation
@@ -401,6 +405,7 @@ Top Navigation
         color: #1784c7;
     }
 }
+
 
 
 
@@ -979,6 +984,7 @@ Sidebar
 
 
 
+
 /* Flexbox stuff */
 
 .cards {
@@ -1108,6 +1114,7 @@ Sidebar
 
 
 
+
 /*——————————————
 Global
 ———————————————*/
@@ -1134,6 +1141,7 @@ h1.header {
     font-size: 50px;
     line-height: 70px;
 }
+
 
 
 
@@ -1232,6 +1240,7 @@ h1.header {
 
 
 
+
 /**/
 
 
@@ -1298,6 +1307,7 @@ Responsive Stuff
 
 
 
+
 /* Hide the browser's default checkbox */
 
 .container {
@@ -1330,6 +1340,7 @@ Responsive Stuff
 
 
 
+
 /* Create a custom checkbox */
 
 .checkmark {
@@ -1341,6 +1352,7 @@ Responsive Stuff
     background-color: #d8d8d8;
     border-radius: 4px;
 }
+
 
 
 
@@ -1362,11 +1374,13 @@ Responsive Stuff
 
 
 
+
 /* When the checkbox is checked, add a blue background */
 
 .container input:checked~.checkmark {
     // background-color: #2196F3;
 }
+
 
 
 
@@ -1384,11 +1398,13 @@ Responsive Stuff
 
 
 
+
 /* Show the checkmark when checked */
 
 .container input:checked~.checkmark:after {
     display: block;
 }
+
 
 
 
