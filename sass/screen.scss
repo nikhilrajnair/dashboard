@@ -583,6 +583,9 @@ Sidebar
                 &:hover div span {
                     z-index: 1;
                 }
+                &:hover .user-profile{
+                    background-color:transparent;
+                }
                 a.active {
                     background-color: #f2f2f2;
                     border-left-color: #16aa4a !important;
@@ -1524,4 +1527,5 @@ Responsive Stuff
     .user-profile img {
         height: 30px;
     }
+    
 }
